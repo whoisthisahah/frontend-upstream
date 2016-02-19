@@ -1,4 +1,4 @@
-<fest:template xmlns:fest="http://fest.mail.ru">
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
     <div id="main">
     	<div class="ui middle aligned center aligned grid">
     		<p class="ui"></p>
