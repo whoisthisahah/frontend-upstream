@@ -1,7 +1,9 @@
 define([
-    'backbone'
+    'backbone',
+    'views/main'
 ], function(
-    Backbone
+    Backbone,
+    mainView
 ){
 
     var Router = Backbone.Router.extend({
@@ -12,7 +14,7 @@ define([
             '*default': 'defaultActions'
         },
         defaultActions: function () {
-            // TODO
+            mainView.show();
         },
         scoreboardAction: function () {
             // TODO

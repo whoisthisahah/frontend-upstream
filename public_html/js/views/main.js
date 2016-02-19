@@ -10,13 +10,14 @@ define([
 
         template: tmpl,
         initialize: function () {
-            // TODO
+            $('#page').html(tmpl());
+            $('#main').hide();
         },
         render: function () {
             // TODO
         },
         show: function () {
-            // TODO
+            $('#main').show();
         },
         hide: function () {
             // TODO
