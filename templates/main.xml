@@ -1,3 +1,31 @@
 <fest:template xmlns:fest="http://fest.mail.ru">
-    <div id="main"></div>
+    <div id="main">
+    	<div class="ui middle aligned center aligned grid">
+    		<p class="ui"></p>
+    		<div class="four wide column">
+		    	<h1 class="ui center aligned header">
+		    		Main Page
+		    	</h1>
+
+				<div class="container">
+		    	<ul class="ui bulleted link list">
+		    		<li class="item">
+		    			<a href="#game">Start game</a>
+		    		</li>
+		    		<li class="item">
+		    			<a href="#scoreboard">Scoreboard</a>
+		    		</li>
+		    		<li class="item">
+		    			<a href="#login">Login</a>
+		    		</li>
+		    		<li class="item">
+		    			<a href="#register">Register</a>
+		    		</li>
+		    	</ul>
+				</div>
+
+	    	</div>
+
+    	</div>
+    </div>
 </fest:template>

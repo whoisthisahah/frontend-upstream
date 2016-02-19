@@ -14,6 +14,7 @@ module.exports = function (grunt) {
                 tasks: ['fest'],
                 options: {
                     spawn: false,
+                    atBegin: true
                 },
             }
 		},
